@@ -1,0 +1,7 @@
+
+/* Remove whitespace on the
+perimeter of the webpage */
+body, html {
+  margin: 0;
+  padding: 0;
+}
