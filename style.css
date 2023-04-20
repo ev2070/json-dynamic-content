@@ -1,7 +1,32 @@
+/* Glook serif type */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 /* Remove whitespace on the
 perimeter of the webpage */
 body, html {
   margin: 0;
   padding: 0;
+}
+
+/* The title will have a fairly large
+font size with a top margin of 20% of
+the viewport's height */
+#title {
+  font-size: 3vw;
+  margin-top: 20vh;
+}
+
+/* The footer will have a medium sized font */
+footer {
+  font-size: 1.5vw;
+}
+
+/* The title and footer will both be dark gray,
+center aligned, with the Glook serif typeface,
+and a bottom margin of 20% of the viewport's height */
+#title, footer {
+  color: #5a5a5a;
+  text-align: center;
+  font-family: 'Gloock', serif;
+  margin-bottom: 20vh;
 }
